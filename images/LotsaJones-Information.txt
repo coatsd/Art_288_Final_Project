@@ -1,0 +1,7 @@
+image name: LotsaJones.jpg
+
+author: Matt Kitces
+
+image url: https://commons.wikimedia.org/wiki/File:LotsaJones.JPG
+
+license: https://commons.wikimedia.org/wiki/File:LotsaJones.JPG

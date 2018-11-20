@@ -1,0 +1,8 @@
+image name: 1st_bottle.jpg
+	    (renamed 408px-1st_bottle.jpg)
+
+author: Amanahabib
+
+image url: https://commons.wikimedia.org/wiki/File:1st_bottle.jpg
+
+license info: https://commons.wikimedia.org/wiki/File:1st_bottle.jpg

@@ -1,0 +1,106 @@
+body {
+    background-color: lightskyblue;
+}
+
+div#wrapper {
+    width: 1200px;
+    margin: auto;
+}
+
+/* banner styles */
+h1#banner {
+    background-image: url("images/Bottle_crown_caps_header_crop2.jpg");
+    height: 100px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+div#bannerGradient {
+    background-image: linear-gradient(rgba(135, 206, 250, 0.5),
+                                      rgba(135, 206, 250, 0.2),
+                                      rgba(135, 206, 250, 1),
+                                      rgba(135, 206, 250, 0.2),
+                                      rgba(135, 206, 250, 0.5));
+    height: 100%;
+    border-radius: 15px;
+}
+
+div#bannerText {
+    font-size: 75px;
+    text-align: center;
+    color: red;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    margin-top: 17px;
+}
+
+/* vertical navigation styles */
+nav#vertical-nav {
+    background-color: white;
+    width: 150px;
+    height: 600px;
+    border: 1px double black;
+}
+
+nav#vertical-nav a {
+    display: block;
+    border: 1px double black;
+    font-size: 30px;
+}
+
+/* article styles */
+article#main {
+    float: right;
+    width: 1000px;
+    background-image: url("images/LotsaJones.jpg");
+    height: 600px;
+}
+
+div#articleGradient {
+    height: 100%;
+    background-color: rgba(135, 206, 250, 0.3);
+}
+
+article#main div#promoHead {
+    font-size: 50px;
+    text-align: center;
+}
+
+article#main div#promo1 {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    float: right;
+    margin-right: 50px;
+}
+
+article#main div#promo2 {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+div#promo1 img, div#promo2 img {
+    border-radius: 5px;
+}
+
+div#promo1 div, div#promo2 div {
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    float: right;
+}
+
+article#main p {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* footer styles */
+footer {
+    text-align: center;
+    font-size: 20px;
+}
