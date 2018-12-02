@@ -12,7 +12,7 @@ h1#banner {
     background-image: url("images/Bottle_crown_caps_header_crop2.jpg");
     height: 100px;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 div#bannerGradient {
@@ -32,22 +32,67 @@ div#bannerText {
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
     width: 1200px;
     margin-top: 17px;
+    font-family: 'Fredoka One', cursive;
 }
 
 /* vertical navigation styles */
 nav#vertical-nav {
-    background-color: white;
+    background-color: lightskyblue;
     width: 150px;
     height: 600px;
-    border: 1px double black;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
-nav#vertical-nav a {
+nav#vertical-nav a.basicNav {
     display: block;
+    background-color: white;
     border: 1px double black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgba(18, 8, 160, 0.2),
+                -3px 3px 1px rgba(18, 8, 160, 0.2),
+                3px -3px 1px rgba(18, 8, 160, 0.2),
+                -3px -3px 1px rgba(18, 8, 160, 0.2);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    margin-top: 20px;
     font-size: 30px;
     text-align: center;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav#vertical-nav a.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+nav#vertical-nav a.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px rgba(18, 8, 160, 0.2),
+                -3px 3px 1px rgba(18, 8, 160, 0.2),
+                3px -3px 1px rgba(18, 8, 160, 0.2),
+                -3px -3px 1px rgba(18, 8, 160, 0.2);
+}
+
+nav#vertical-nav a#facebookIcon {
+    margin-left: 29px;
+    margin-top: 60px;
+}
+
+nav#vertical-nav a:hover {
+    background-image: linear-gradient(rgba(135, 206, 250, 0.5),
+                                      rgba(135, 206, 250, 0.2),
+                                      rgba(135, 206, 250, 1),
+                                      rgba(135, 206, 250, 0.2),
+                                      rgba(135, 206, 250, 0.5));
 }
 
 /* article styles */
@@ -56,7 +101,8 @@ article#main {
     width: 1000px;
     background-image: url("images/LotsaJones.JPG");
     height: 600px;
-    border-radius: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 div#articleGradient {
@@ -72,6 +118,7 @@ article#main div#promoHead {
     font-weight: bold;
     color: red;
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+    font-family: 'Fredoka One', cursive;
 }
 
 article#main div#promo1 {
@@ -111,6 +158,7 @@ article#main p {
     color: red;
     text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
     margin-top: 30px;
+    font-family: 'Fredoka One', cursive;
 }
 
 article#main button#hubButton {
@@ -118,6 +166,19 @@ article#main button#hubButton {
     width: 200px;
     border-radius: 5px;
     margin-left: 40%;
+    font-family: 'Fredoka One', cursive;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2),
+                -3px 3px 1px rgba(0, 0, 0, 0.2),
+                3px -3px 1px rgba(0, 0, 0, 0.2),
+                -3px -3px 1px rgba(0, 0, 0, 0.2);
+}
+
+article#main button#hubButton:hover {
+    background-image: linear-gradient(rgba(135, 206, 250, 0.4),
+                                      rgba(135, 206, 250, 0.2),
+                                      rgba(135, 206, 250, 0.5),
+                                      rgba(135, 206, 250, 0.2),
+                                      rgba(135, 206, 250, 0.4));
 }
 
 /* footer styles */
